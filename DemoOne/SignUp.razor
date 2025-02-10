@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khathala - Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .signup-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 350px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .signup-text {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .provider-signup {
+            background-color: #17a2b8;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .signup-button {
+            background-color: #17a2b8;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .social-login {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+            .social-login img {
+                width: 40px;
+                cursor: pointer;
+            }
+
+        .login-link {
+            color: #17a2b8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <img src="khathala-logo.png" alt="Khathala Logo" class="logo">
+        <h2 class="signup-text">Sign up</h2>
+
+        <button class="provider-signup">Service providers, Click here to sign up</button>
+
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="password" placeholder="Password">
+
+        <button class="signup-button">Sign up</button>
+
+        <div>or login with</div>
+
+        <div class="social-login">
+            <img src="google-icon.png" alt="Google">
+            <img src="facebook-icon.png" alt="Facebook">
+            <img src="apple-icon.png" alt="Apple">
+        </div>
+
+        <div>
+            Already have an account? <a href="#" class="login-link">Sign In here</a>
+        </div>
+    </div>
+</body>
+</html>
+
+@code {
+
+}
